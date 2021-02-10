@@ -1,3 +1,4 @@
 def isPalindrome(str):
+    strLower = str.lower()
     revStr = reversed(str.lower())
-    return list(str) == list(revStr)
+    return list(revStr) == list(strLower)
